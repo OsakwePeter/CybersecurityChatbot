@@ -69,7 +69,7 @@ namespace CybersecurityChatbot
         /// </summary>
         /// <param name="input">The raw user input string to match against.</param>
         /// <returns>A personalised response string, or null if no match found.</returns>
-        public string? GetResponse(string input)
+        public string GetResponse(string input)
         {
             // Guard: empty or whitespace input cannot match any keyword
             if (string.IsNullOrWhiteSpace(input))

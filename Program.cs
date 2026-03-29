@@ -6,8 +6,6 @@
 //           safe online through interactive conversation.
 // ============================================================
 
-using System;
-
 namespace CybersecurityChatbot
 {
     /// <summary>
@@ -26,6 +24,7 @@ namespace CybersecurityChatbot
         /// <param name="args">Command-line arguments (not used in this application).</param>
         static void Main(string[] args)
         {
+
             // 1. Play the recorded voice greeting (Windows only — fails silently on other platforms)
             VoiceGreeting.Play();
 

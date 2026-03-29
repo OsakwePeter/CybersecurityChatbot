@@ -74,7 +74,7 @@ namespace CybersecurityChatbot
             // ── Name collection with validation loop ──────────────────────────
             // Keep asking until the user provides a non-empty name
             ConsoleHelper.WriteColored(" Please enter your name: ", ConsoleColor.Cyan);
-            string? input = Console.ReadLine();
+            string input = Console.ReadLine();
 
             while (string.IsNullOrWhiteSpace(input))
             {
@@ -147,7 +147,7 @@ namespace CybersecurityChatbot
             {
                 // Display user label and read their input
                 ConsoleHelper.PrintUserLabel(_userName);
-                string? rawInput = Console.ReadLine();
+                string rawInput = Console.ReadLine();
 
                 Console.WriteLine();
 
@@ -199,7 +199,7 @@ namespace CybersecurityChatbot
         /// Output parameter — contains the trimmed input if valid, or empty string if invalid.
         /// </param>
         /// <returns>True if the input is valid and safe to process; false otherwise.</returns>
-        private bool ValidateInput(string? raw, out string cleaned)
+        private bool ValidateInput(string raw, out string cleaned)
         {
             // 'out' parameters must be assigned before the method can return
             cleaned = string.Empty;

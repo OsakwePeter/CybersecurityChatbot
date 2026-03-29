@@ -1,0 +1,8 @@
+C:\Users\meetp\source\repos\CybersecurityChatbot\bin\Debug\greeting.wav.wav
+C:\Users\meetp\source\repos\CybersecurityChatbot\bin\Debug\CybersecurityChatbot.exe.config
+C:\Users\meetp\source\repos\CybersecurityChatbot\bin\Debug\CybersecurityChatbot.exe
+C:\Users\meetp\source\repos\CybersecurityChatbot\bin\Debug\CybersecurityChatbot.pdb
+C:\Users\meetp\source\repos\CybersecurityChatbot\obj\Debug\CybersecurityChatbot.csproj.AssemblyReference.cache
+C:\Users\meetp\source\repos\CybersecurityChatbot\obj\Debug\CybersecurityChatbot.csproj.CoreCompileInputs.cache
+C:\Users\meetp\source\repos\CybersecurityChatbot\obj\Debug\CybersecurityChatbot.exe
+C:\Users\meetp\source\repos\CybersecurityChatbot\obj\Debug\CybersecurityChatbot.pdb
